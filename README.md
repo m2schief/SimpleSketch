@@ -1,1 +1,1 @@
-# SimpleSketch
+# SimpleSketch Screenshots
