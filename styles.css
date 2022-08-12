@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    gap: calc(50vh - 300px - 45px);
+}
+
+.header {
+    background: white;
+    height: 45px;
+    font-size: 30px;
+    border-bottom: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etch-sketch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#sketch-container {
+    border: 8px solid black;
+    width: 600px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-content: flex-start;
+}
+
+.grid-pixel {
+    outline: 1px solid rgb(212, 212, 212);
+    background: white;
+}
